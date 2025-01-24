@@ -50,9 +50,11 @@ console.log(tipTotal)
 
 // Generate a random integer between 1 and 10 (inclusive)
 
-
+const max = 10
+const min = 1
+const RandomInter = Math.floor(Math.random() * (max - min + 1 )) + min
 // Print the generated random number
-
+console.log(RandomInter)
 
 
 /*******************************************
@@ -63,16 +65,16 @@ const a = true;
 const b = false;
 
 // Try and guess the output of the below expressions first and write your answers down:
-const expression1 = a && b;
+const expression1 = a && b; // False
 
-const expression2 = a || b;
+const expression2 = a || b; // True
 
-const expression3 = !a && b;
+const expression3 = !a && b; // False
 
-const expression4 = !(a && b);
+const expression4 = !(a && b); // True
 
-const expression5 = !a || !b;
+const expression5 = !a || !b; // True
 
-const expression6 = !(a || b);
+const expression6 = !(a || b); // False
 
-const expression7 = a && a;
+const expression7 = a && a; // True
